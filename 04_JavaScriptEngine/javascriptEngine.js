@@ -12,7 +12,9 @@
  * 
  *     ⬇️
  * 
- *3️⃣ Execution : This execution phase is not possible without two major components "Memory Heap" and "Call Stack".  
+ *3️⃣ Execution : This execution phase is not possible without two major components "Memory Heap" and "Call Stack". Memory Heap is the place where all the vairables and functions
+                  assigned memory. The Garbage Collector uses "Mark & Sweep" Algorithm.
  *      
- * 
+ * 🚀 V8 Engine : It's a google Javascript engine. It has it's own interpretter known as "Ignition". And along with this they have "Turbo Fan" compiler which optimizes the code.
+ *  
  */
