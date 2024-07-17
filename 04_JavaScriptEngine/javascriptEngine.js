@@ -16,5 +16,5 @@
                   assigned memory. The Garbage Collector uses "Mark & Sweep" Algorithm.
  *      
  * 🚀 V8 Engine : It's a google Javascript engine. It has it's own interpretter known as "Ignition". And along with this they have "Turbo Fan" compiler which optimizes the code.
- *  
+ *                Even they have there own Garbage collector known as "Orinoco" and it also uses "Mark & Sweep" Algorithm.  
  */
