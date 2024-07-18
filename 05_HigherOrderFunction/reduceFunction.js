@@ -31,7 +31,7 @@ const maxNumber = arr.reduce((acc, curr) => {
    if(curr > acc)
         acc = curr
     return acc;
-},0);    //»» Here 0 stands for initial value
+},0);    //»» Here 0 stands for initial value of accumulator
 
 console.log("The maximum value is: ", maxNumber);
 
