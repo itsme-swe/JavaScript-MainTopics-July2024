@@ -26,5 +26,14 @@ const sumOutput = arr.reduce(function(acc,curr) {
 
 console.log(sumOutput);     //»» 30
 
+//🔸Now we'll be finding maximum number inside the array using reduce function
+const maxNumber = arr.reduce((acc, curr) => {
+   if(curr > acc)
+        acc = curr
+    return acc;
+},0);    //»» Here 0 stands for initial value
+
+console.log("The maximum value is: ", maxNumber);
+
 
 
