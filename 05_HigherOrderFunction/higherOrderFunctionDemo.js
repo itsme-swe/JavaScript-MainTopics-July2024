@@ -3,6 +3,7 @@
  */
 const radius = [3, 1, 2, 4];
 
+//»» Area, Circumference and diameter is callback function for calculate  
 const area = function (radius){
     return Math.PI * radius * radius;
 };
@@ -15,6 +16,7 @@ const diameter = function(radius) {
     return 2 * radius;
 };
 
+//»»» Higher Order Function
 const calculate = function (radius,logic){
     
     const output = [];
