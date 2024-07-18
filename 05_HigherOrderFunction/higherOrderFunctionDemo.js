@@ -3,7 +3,7 @@
  */
 const radius = [3, 1, 2, 4];
 
-//»» Area, Circumference and diameter is callback function for calculate  
+//»» Area, Circumference and diameter is callback function which is passed as parameter logic inside calculate function  
 const area = function (radius){
     return Math.PI * radius * radius;
 };
